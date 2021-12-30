@@ -78,8 +78,12 @@ WSGI_APPLICATION = 'trueapi.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'db28okjlp7ais1',
+        'USER': 'qioucvphwikhph',
+        'PASSWORD': '9be68fb1d3aed2f049e0f8e270b8cb7f71f108528118a0142b1c917f0b4cdae1',
+        'HOST': 'ec2-54-157-113-118.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
