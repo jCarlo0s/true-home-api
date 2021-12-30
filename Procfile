@@ -1,1 +1,1 @@
-web: gunicorn trueapi.trueapi.wsgi
+web: gunicorn trueapi.wsgi
